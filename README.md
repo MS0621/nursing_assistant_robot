@@ -38,6 +38,8 @@
 - ArUco 마커 및 얼굴 인식을 통해 환자 식별
 
   ![face](https://github.com/user-attachments/assets/c7c89e95-f906-4512-b23b-c57c82a9576b)
+  <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/1b731792-5f68-4cde-add7-50c712b83ee8" />
+
 
 - 깊이 카메라 기반 위치 추정 및 TF2를 통한 3D 위치 변환
 
