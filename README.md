@@ -111,6 +111,9 @@ rPPG는 RGB 카메라를 이용한 비접촉 방식 생체 신호 측정 기술�
 
 ## 5. 🎥 데모 영상
 
-▶️ [시연 영상 보기](https://drive.google.com/file/d/1XalQhJVQs6HRULGkdsYCedEdJGqS83Y0/view?usp=sharing)
+[![시연 영상 썸네일](https://img.youtube.com/vi/engfuoJjMBw/0.jpg)](https://www.youtube.com/watch?v=engfuoJjMBw)
+
+👉 클릭 시 YouTube에서 전체 영상 시청
+
 
 ---
