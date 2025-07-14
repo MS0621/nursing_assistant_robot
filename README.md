@@ -49,6 +49,9 @@
 - rPPG(영상 기반 PPG)를 이용한 심박수, SpO2, 혈압 추정
 
 #### < rPPG란? >
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/f0cc3c06-ee91-4de3-96d9-45d34bc1ce38" />
+
 rPPG는 RGB 카메라를 이용한 비접촉 방식 생체 신호 측정 기술로, 혈액량 변화에 따라 얼굴 피부 색상이 미세하게 변하는 것을 분석하여 생리학적 신호를 추정합니다.
 
 1. 원거리에서 심박수 비접촉 측정  
