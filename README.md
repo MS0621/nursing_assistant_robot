@@ -61,6 +61,8 @@ rPPG는 RGB 카메라를 이용한 비접촉 방식 생체 신호 측정 기술�
 
 - 얼굴 추적 및 필터 기반 신호 증폭 기술과 통합됨
 
+![Image](https://github.com/user-attachments/assets/ca3a3ef4-64a4-4456-9228-52b35cdbcfaa)
+
 📄 [rPPG 기반 산소포화도 측정 성능 비교 논문.pdf](https://github.com/user-attachments/files/21120109/Comparison.of.rPPG-based.Oxygen.Saturation.Measurement.Performance.by.Face.Area.with.Simple.Signal.Processing.pdf)
 
 ---
