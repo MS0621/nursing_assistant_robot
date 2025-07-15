@@ -35,9 +35,10 @@
 - 복잡한 병원 복도 및 병실 환경에서도 안정적으로 주행
 - 동적 장애물(예: 사람) 감지 시 자동 정지 및 재개
 
-<img width="479" alt="image" src="https://github.com/user-attachments/assets/b3056a58-d3fa-4957-845c-b18cc0670b8c" />
+<img width="625" height="308" alt="image" src="https://github.com/user-attachments/assets/10922a9b-2f59-4aca-9d3f-b2307dff7abd" />
 
-<img width="755" height="566" alt="image" src="https://github.com/user-attachments/assets/bca32370-4f01-442e-80b7-3390ffc89216" />
+<img width="775" height="566" alt="image" src="https://github.com/user-attachments/assets/35903131-b552-48d7-b8f7-7f5d899ab22f" />
+
 
 
 ---
