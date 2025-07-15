@@ -89,7 +89,7 @@ rPPG는 RGB 카메라를 이용한 비접촉 방식 생체 신호 측정 기술�
 
   <img width="379" alt="image" src="https://github.com/user-attachments/assets/c6ff258c-b111-43d3-be72-e0dd564d2fff" />
 
-- 분산형 태스크 할당 및 랑데뷰 지점 설정 (amcl_pose/pose/position/x, y 사용)
+- 클라우드 기반 메시징으로 robot1의 위치에 따른 유연한 랑데뷰 포인트 설정(amcl_pose/pose/position/x, y 사용)
 
   ![녹음 2025-07-08 194028](https://github.com/user-attachments/assets/c9592713-b85c-4ec3-b4cc-932662d9f80e)
 
