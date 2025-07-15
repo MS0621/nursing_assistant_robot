@@ -191,3 +191,16 @@ rPPG는 RGB 카메라를 이용한 비접촉 방식 생체 신호 측정 기술�
 
 
 ---
+
+## 6. More about Project
+
+[▶️PDF로 보기](https://drive.google.com/file/d/1io5YXrv59YGzz9mFVwZFr9w5tfyfv3y-/preview)
+
+[▶️PPT로 보기](https://docs.google.com/presentation/d/1M3GEA6Gc1wiV9HGT6Sjt1-zfXWkuzGvD/edit?usp=sharing&ouid=100435134823954159263&rtpof=true&sd=true/preview)
+
+
+
+
+
+
+---
