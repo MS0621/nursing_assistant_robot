@@ -35,9 +35,10 @@
 - 복잡한 병원 복도 및 병실 환경에서도 안정적으로 주행
 - 동적 장애물(예: 사람) 감지 시 자동 정지 및 재개
 
-<img width="625" height="308" alt="image" src="https://github.com/user-attachments/assets/5015c6f5-a152-4b51-816c-8dbef1cf7dc4" />
+<img width="506" height="252" alt="image" src="https://github.com/user-attachments/assets/5048a97d-15a6-47bf-ab3b-f94d8948e5e0" />
 
-<img width="755" height="566" alt="image" src="https://github.com/user-attachments/assets/db5ddbe0-edd6-4484-94ed-ed77f38d1dc6" />
+
+<img width="608" height="453" alt="image" src="https://github.com/user-attachments/assets/f1ede8d1-7cf5-4d47-b80f-00dc56e66451" />
 
 
 
@@ -52,6 +53,9 @@
 
   ![face](https://github.com/user-attachments/assets/c7c89e95-f906-4512-b23b-c57c82a9576b)
   
+- ArUco 마커 인식을 통한 로봇 자세 제어
+
+
 
 - 깊이 카메라 기반 위치 추정 및 TF2를 통한 3D 위치 변환
 
