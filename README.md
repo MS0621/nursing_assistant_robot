@@ -6,6 +6,17 @@
 
 본 시스템은 **두 대의 TurtleBot4 로봇**이 협력하여 병원 내 **약국 및 병동 구역**에서 물류와 환자 상호작용 작업을 수행합니다.
 
+###  팀원 역할 분담
+| 이름 | 역할 |
+|------|------|
+| 백홍하 | Vision, GUI |
+| 이하빈 | Vision, ROS 통신 |
+| 장연호 | Navigation, MQTT |
+| 정찬원 | Navigation, 영상 편집 |
+| 이경민, 최정호 | robot1 Vision |
+| 문준웅 | robot1 Navigation, GUI |
+| 정민섭 | robot1 Navigation, 바이탈 체크 기능 |
+
 ### 시스템 아키텍처  
 <img width="920" alt="image" src="https://github.com/user-attachments/assets/9201e11e-0466-4b7a-8aae-bde2ca33f71c" />
 
@@ -26,7 +37,8 @@
 
 <img width="479" alt="image" src="https://github.com/user-attachments/assets/b3056a58-d3fa-4957-845c-b18cc0670b8c" />
 
-![project_map_real_2](https://github.com/user-attachments/assets/47fe3ec7-21e5-4fe4-877c-a25964b2c0be)
+<img width="755" height="566" alt="image" src="https://github.com/user-attachments/assets/bca32370-4f01-442e-80b7-3390ffc89216" />
+
 
 ---
 
@@ -96,6 +108,63 @@ rPPG는 RGB 카메라를 이용한 비접촉 방식 생체 신호 측정 기술�
 | **협업 도구** | GitHub, Google Docs, 발표 도구 등 |
 
 <img width="727" alt="image" src="https://github.com/user-attachments/assets/82cc495a-b436-4a73-a29b-a479adc2bb34" />
+
+---
+
+## 4.  프로젝트 시나리오
+### 개별 시나리오
+
+---
+
+### 1) 🏥 제조실  
+![시나리오 1](https://github.com/user-attachments/assets/f46c4487-bd00-44d8-a1ff-8cf17a8d720c)
+
+
+#### 상세 동작 흐름
+
+**① 약품 탐지 및 위치 추정**  
+- 요청 수신 → Nav2로 선반 앞 도착  
+- YOLOv8 모델을 통해 약품 탐지  
+- Depth 카메라로 거리 측정 → TF2 변환을 통해 map 좌표 추출  
+
+**② 약품 위치로 이동 및 전달 준비**  
+- 추정된 좌표로 로봇 이동  
+- MQTT를 통해 robot1과 위치 정보 공유  
+- 랑데부 포인트에서 전달 대기  
+
+---
+
+### 2) 🛏 병실  
+![시나리오2](https://github.com/user-attachments/assets/72cff4be-17c5-457c-a431-aeaebe92f2b5)
+
+#### 상세 동작 흐름
+
+**① 환자 ID 인식**  
+- 병실 도착 후 회전 → ArUco 마커 탐지로 환자 ID 확인  
+- 마커 거리 1m 이내 도달 시 정지  
+
+**② 환자 얼굴 감지 및 바이탈 측정**  
+- 얼굴 감지 (Face Detection)  
+- rPPG 기반 Vital signal 추정: 심박수, 산소포화도, 혈압 추정  
+- GUI로 결과 전송  
+
+---
+
+### 3) 🤖 로봇 협업  
+![시나리오 3](https://github.com/user-attachments/assets/359776c8-ef37-49c6-985e-9f082ad1503d)
+
+#### 상세 동작 흐름
+
+**① 좌표 공유 및 동기화**  
+- robot1: 현재 좌표 → MQTT Publish  
+- robot4: 해당 좌표 Subscribe → 이동
+
+**② 랑데부 지점 도착 및 약품 전달**  
+- 두 로봇 모두 도착 시 flag 전송  
+- robot4 → 약품 전달  
+- robot1 → 병실로 출발, robot4 → 도킹 위치 복귀  
+
+---
 
 ---
 
