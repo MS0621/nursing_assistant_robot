@@ -119,7 +119,6 @@ rPPG는 RGB 카메라를 이용한 비접촉 방식 생체 신호 측정 기술�
 ## 4.  프로젝트 시나리오
 ### 개별 시나리오
 
----
 
 ### 1) 🏥 제조실  
 ![시나리오 1](https://github.com/user-attachments/assets/f46c4487-bd00-44d8-a1ff-8cf17a8d720c)
@@ -171,9 +170,7 @@ rPPG는 RGB 카메라를 이용한 비접촉 방식 생체 신호 측정 기술�
 
 ---
 
----
-
-## 4. 🌟 결과 및 기대 효과
+## 5. 🌟 결과 및 기대 효과
 
 - 병원 내 물류와 환자 상호작용을 위한 **자율 로봇 전체 파이프라인 시연 성공**
 - 자율주행, 물체 인식, 환자 인식, 생체 신호 측정 등을 통합한 **실시간 작동 시스템 구축**
@@ -185,7 +182,7 @@ rPPG는 RGB 카메라를 이용한 비접촉 방식 생체 신호 측정 기술�
 
 ---
 
-## 5. 🎥 데모 영상
+## 6. 🎥 데모 영상
 
 [![시연 영상 썸네일](https://img.youtube.com/vi/engfuoJjMBw/0.jpg)](https://www.youtube.com/watch?v=engfuoJjMBw)
 
@@ -194,7 +191,7 @@ rPPG는 RGB 카메라를 이용한 비접촉 방식 생체 신호 측정 기술�
 
 ---
 
-## 6. More about Project
+## 7. More about Project
 
 [▶️PDF로 보기](https://drive.google.com/file/d/1io5YXrv59YGzz9mFVwZFr9w5tfyfv3y-/preview)
 
