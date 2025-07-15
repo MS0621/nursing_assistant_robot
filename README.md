@@ -55,7 +55,7 @@
   
 - ArUco 마커 인식을 통한 로봇 자세 제어
 
-![Image](https://github.com/user-attachments/assets/78a100ef-3049-4757-9295-df78a7e55065)
+  ![Image](https://github.com/user-attachments/assets/78a100ef-3049-4757-9295-df78a7e55065)
 
 - 깊이 카메라 기반 위치 추정 및 TF2를 통한 3D 위치 변환
 
@@ -180,7 +180,7 @@ rPPG는 RGB 카메라를 이용한 비접촉 방식 생체 신호 측정 기술�
 - 반복 업무를 로봇이 대신함으로써 간호사는 전문적 진료에 집중 가능
 - **스마트 병원 인프라 구축의 시범 모델 제공**
 - Manipulator와 협업시 **완전 자동화 가능성 시사**
-<img width="1059" height="549" alt="Image" src="https://github.com/user-attachments/assets/64e8267a-c8ae-4368-bb05-0ffcc7f60ae9" />
+  ![Image](https://github.com/user-attachments/assets/765c9b5b-ab97-4251-98da-39fd204075f8)
 
 ---
 
