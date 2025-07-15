@@ -154,6 +154,8 @@ rPPG는 RGB 카메라를 이용한 비접촉 방식 생체 신호 측정 기술�
 - rPPG 기반 Vital signal 추정: 심박수, 산소포화도, 혈압 추정  
 - GUI로 결과 전송  
 
+![Image](https://github.com/user-attachments/assets/ddfa1225-27dc-4f14-8d5d-e20342daa991) ![Image](https://github.com/user-attachments/assets/cacd869b-efb8-4147-8a2d-919687d2f8d5)
+
 ---
 
 ### 3) 🤖 로봇 협업  
