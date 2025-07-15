@@ -180,6 +180,8 @@ rPPG는 RGB 카메라를 이용한 비접촉 방식 생체 신호 측정 기술�
 - 클라우드 기반 아키텍처로 **대규모 병원 확장 가능성 확보**
 - 반복 업무를 로봇이 대신함으로써 간호사는 전문적 진료에 집중 가능
 - **스마트 병원 인프라 구축의 시범 모델 제공**
+- Manipulator와 협업시 **완전 자동화 가능성 시사**
+<img width="1059" height="549" alt="Image" src="https://github.com/user-attachments/assets/64e8267a-c8ae-4368-bb05-0ffcc7f60ae9" />
 
 ---
 
