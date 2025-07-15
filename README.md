@@ -99,7 +99,7 @@ rPPG는 RGB 카메라를 이용한 비접촉 방식 생체 신호 측정 기술�
 - 실시간 약물 요청 및 로봇 상태 모니터링
 - 로봇 위치, 생체 정보 등을 시각적으로 표시
 
-
+![Image](https://github.com/user-attachments/assets/e63fde94-1568-469e-8c3b-cbbb6319c372)![Image](https://github.com/user-attachments/assets/d9766d08-5465-4125-8060-0af58d95fbdc)
 
 ---
 
@@ -153,8 +153,6 @@ rPPG는 RGB 카메라를 이용한 비접촉 방식 생체 신호 측정 기술�
 - 얼굴 감지 (Face Detection)  
 - rPPG 기반 Vital signal 추정: 심박수, 산소포화도, 혈압 추정  
 - GUI로 결과 전송  
-
-![Image](https://github.com/user-attachments/assets/ddfa1225-27dc-4f14-8d5d-e20342daa991) ![Image](https://github.com/user-attachments/assets/cacd869b-efb8-4147-8a2d-919687d2f8d5)
 
 ---
 
