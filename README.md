@@ -9,13 +9,13 @@
 ###  팀원 역할 분담
 | 이름 | 역할 |
 |------|------|
-| 백홍하 | Vision, GUI |
-| 이하빈 | Vision, ROS 통신 |
-| 장연호 | Navigation, MQTT |
-| 정찬원 | Navigation, 영상 편집 |
+| 백홍하 | robot4 Vision, GUI |
+| 이하빈 | robot4 Vision, ROS 통신 |
+| 장연호 | robot4 Navigation, MQTT |
+| 정찬원 | robot4 Navigation, 영상 편집 |
 | 이경민, 최정호 | robot1 Vision |
 | 문준웅 | robot1 Navigation, GUI |
-| 정민섭 | robot1 Navigation, 바이탈 체크 기능 |
+| 정민섭 | robot1 Navigation, Vital Check Node |
 
 ### 시스템 아키텍처  
 <img width="920" alt="image" src="https://github.com/user-attachments/assets/9201e11e-0466-4b7a-8aae-bde2ca33f71c" />
