@@ -26,6 +26,12 @@
 ### 시스템 플로우  
 <img width="393" alt="image" src="https://github.com/user-attachments/assets/0e439a5b-1d56-4238-9ec0-7aecfa4f4423" />
 
+### 프로젝트에 사용된 맵
+<img width="506" height="252" alt="image" src="https://github.com/user-attachments/assets/5048a97d-15a6-47bf-ab3b-f94d8948e5e0" />
+
+
+<img width="608" height="453" alt="image" src="https://github.com/user-attachments/assets/f1ede8d1-7cf5-4d47-b80f-00dc56e66451" />
+
 ---
 
 ## 2. 주요 기능
@@ -35,10 +41,6 @@
 - 복잡한 병원 복도 및 병실 환경에서도 안정적으로 주행
 - 동적 장애물(예: 사람) 감지 시 자동 정지 및 재개
 
-<img width="506" height="252" alt="image" src="https://github.com/user-attachments/assets/5048a97d-15a6-47bf-ab3b-f94d8948e5e0" />
-
-
-<img width="608" height="453" alt="image" src="https://github.com/user-attachments/assets/f1ede8d1-7cf5-4d47-b80f-00dc56e66451" />
 
 
 
@@ -70,7 +72,7 @@
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/f0cc3c06-ee91-4de3-96d9-45d34bc1ce38" />
 
-rPPG는 RGB 카메라를 이용한 비접촉 방식 생체 신호 측정 기술로, 혈액량 변화에 따라 얼굴 피부 색상이 미세하게 변하는 것을 분석하여 생리학적 신호를 추정합니다.
+rPPG는 RGB 카메라를 이용한 비접촉 방식 생체 신호 측정 기술로, 혈액량 변화에 따라 얼굴 피부 색상이 미세하게 변하는 것을 분석하여 생리학적 신호를 추정
 
 1. 원거리에서 심박수 비접촉 측정  
 2. 얼굴 영상의 피부 색 변화 분석  
