@@ -93,7 +93,7 @@ rPPG는 RGB 카메라를 이용한 비접촉 방식 생체 신호 측정 기술�
 
   <img width="379" alt="image" src="https://github.com/user-attachments/assets/c6ff258c-b111-43d3-be72-e0dd564d2fff" />
 
-- 클라우드 기반 메시징으로 robot1의 위치에 따른 유연한 랑데뷰 포인트 설정(amcl_pose/pose/position/x, y 사용)
+- 클라우드 기반 메시징으로 병동 로봇의 위치에 따른 유연한 랑데뷰 포인트 설정(amcl_pose/pose/position/x, y 사용)
 
   ![녹음 2025-07-08 194028](https://github.com/user-attachments/assets/c9592713-b85c-4ec3-b4cc-932662d9f80e)
 
@@ -166,13 +166,13 @@ rPPG는 RGB 카메라를 이용한 비접촉 방식 생체 신호 측정 기술�
 #### 상세 동작 흐름
 
 **① 좌표 공유 및 동기화**  
-- robot1: 현재 좌표 → MQTT Publish  
-- robot4: 해당 좌표 Subscribe → 이동
+- 병동 로봇: 현재 좌표 → MQTT Publish  
+- 제조실 로봇: 해당 좌표 Subscribe → 이동
 
 **② 랑데부 지점 도착 및 약품 전달**  
 - 두 로봇 모두 도착 시 flag 전송  
-- robot4 → 약품 전달  
-- robot1 → 병실로 출발, robot4 → 도킹 위치 복귀  
+- 제조실 로봇 → 약품 전달  
+- 병동 로봇 → 병실로 출발, robot4 → 도킹 위치 복귀  
 
 ---
 
