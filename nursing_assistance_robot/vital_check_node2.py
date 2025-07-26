@@ -109,7 +109,7 @@ class RPPGChromNode(Node):
         ratio = (r_ac / r_dc) / (g_ac / g_dc + 1e-6)
         spo2 = 110 - 15 * ratio  # 대략적인 경험적 추정 공식
 
-        return np.clip(spo2, 70, 100)
+        return spo2
 
     def detect_face(self, frame):
         blob = cv2.dnn.blobFromImage(cv2.resize(frame, (300, 300)),
